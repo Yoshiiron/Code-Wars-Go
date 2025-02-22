@@ -2,6 +2,10 @@
 
 package kata
 
-func solution(str, ending string) bool {
+import (
+	"strings"
+)
 
+func solution(str, ending string) bool {
+	return strings.HasSuffix(str, ending)
 }
