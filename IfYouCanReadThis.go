@@ -46,5 +46,6 @@ func ToNato(words string) (res string) {
 			res += NATO[strings.ToUpper(string(word))] + " "
 		}
 	}
+
 	return strings.TrimSpace(res)
 }
